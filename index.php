@@ -20,7 +20,7 @@ session_start();
 <header class="main-header">
   <a href="#" class="logo">
     <span class="logo-mini"><b>D</b> - NM</span>
-    <span class="logo-lg"><b>Developer</b> - <em >Nafiyad Menberu</em></span>
+    <span class="logo-lg"><b>Developer</b> - <em >@NafMKD</em></span>
   </a>
   <nav class="navbar navbar-static-top">
     <div class="navbar-custom-menu">
@@ -60,7 +60,7 @@ session_start();
                     <input type="text" class="form-control" id="csub5" placeholder="Enter Credit hour" style="margin-top: 5px;">
                     <input type="text" class="form-control" id="csub6" placeholder="Enter Credit hour" style="margin-top: 5px;">
                     <span class="input-group-btn">
-                      <button class="btn btn-default pull-right" id="calculate1" type="button" style="margin-top: 10px;">Calculate</button>
+                      <button class="btn btn-info pull-right" id="calculate1" type="button" style="margin-top: 10px;">Calculate</button>
                     </span>
                   </div>
 
@@ -106,15 +106,9 @@ session_start();
             		<input type="text" maxlength="2" class="form-control" id="cse" placeholder="CSE" style="margin-top: 5px;">
             	</div>
             	<div class="col-md-4"></div>
-              <div class="col-md-12" style="margin-top: 5px;">
-                <input type="email" class="form-control" id="email" placeholder="email" >
-              </div>
-            </div>
+            </div>     
             <span class="input-group-btn">
-              <button class="btn btn-success pull-left" id="sendemail"> Send By Email</button> 
-            </span>     
-            <span class="input-group-btn">
-              <button class="btn btn-default pull-right" id="calculate" type="button" style="margin-top: 10px;">Calculate</button>
+              <button class="btn btn-ingo pull-right" id="calculate" type="button" style="margin-top: 10px;">Calculate</button>
             </span>
           </div>
         </div>
@@ -130,7 +124,7 @@ session_start();
 	<script>
     	$(document).ready(function(){
       		$("#calculate").click(function(){
-
+		document.getElementById("calculate").innerHTML = "Calculating ..";
        		 $.post("calc.php",
          		 {
 
@@ -140,36 +134,12 @@ session_start();
               phy: document.getElementById('phy').value,
               eng: document.getElementById('eng').value,
               civ: document.getElementById('civ').value,
-              cse: document.getElementById('cse').value,
-              email: document.getElementById('email').value
+              cse: document.getElementById('cse').value
               
           },
           function(data){
                $('#sowbox').html(data);
-
-          });
-      });
-    })
-  </script>
-  <script>
-      $(document).ready(function(){
-          $("#sendemail").click(function(){
-
-           $.post("calc.php",
-             {
-              type:'sende',
-              maths:  document.getElementById('maths').value,
-              chem: document.getElementById('chem').value,
-              phy: document.getElementById('phy').value,
-              eng: document.getElementById('eng').value,
-              civ: document.getElementById('civ').value,
-              cse: document.getElementById('cse').value,
-              email: document.getElementById('email').value
-              
-          },
-          function(data){
-               $('#sowbox').html(data);
-
+		document.getElementById("calculate").innerHTML = "Calculate";
           });
       });
     })
@@ -177,7 +147,7 @@ session_start();
   <script>
       $(document).ready(function(){
           $("#calculate1").click(function(){
-
+		document.getElementById("calculate1").innerHTML = "Calculating ..";
            $.post("calc1.php",
              {
               nsub1: document.getElementById('nsub1').value,
@@ -202,7 +172,7 @@ session_start();
           },
           function(data){
                $('#sowbox1').html(data);
-
+		document.getElementById("calculate1").innerHTML = "Calculate";
           });
       });
     })
