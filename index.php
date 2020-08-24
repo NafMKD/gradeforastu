@@ -23,7 +23,7 @@ error_reporting(0);
     <div class="navbar-custom-menu">
       <ul class="nav navbar-nav navbar-right" style="margin-right: 10px;">
 	 <li class="dropdown notifications-menu">
-		 <a href="t.me/nafmkd"> @NafMKD </a>
+		 <a href="https://t.me/nafmkd" target="_blank"> @NafMKD </a>
 	 </li>
       </ul>
     </div>
