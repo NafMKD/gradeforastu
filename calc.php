@@ -1,7 +1,6 @@
 <?php
 session_start();
 
-$ret = $_POST['type'];
 $maths = $_POST['maths'];
 $chem = $_POST['chem'];
 $phy = $_POST['phy'];
