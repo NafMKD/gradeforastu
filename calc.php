@@ -101,7 +101,6 @@ $tot = $mao + $cao + $pyo + $eno + $cio + $cso;
 
 $out = round($tot / 19, 2)  ;
 
-if($ret == 'generate'){
 echo '
 <div class="box box-info">
 <div class="box-header with-border">
@@ -182,30 +181,3 @@ echo '
 
 </div>
 ';
-}
-
-if( $ret == 'sende'){
-
-	$to = $emaila ;
-	$subject = 'Grade Report';
-	$message = '
-
-		Maths 					'.$ma1.'
-		Chemistry				'.$ca1.'
-		Physics					'.$py1.'
-		English					'.$en1.'
-		Civics 					'.$ci1.'
-		CSE 					'.$cs1.'
-
-	---------------------------------------
-
-		GPA 					'.$out.'
-
-	';
-	$headers = "From: guchemenberu32@gmail.com\r\n";
-	if (mail($to, $subject, $message, $headers)) {
-	   echo "Successfuly Sended";
-	} else {
-	   echo "ERROR OCURED!!";
-	}
-}
