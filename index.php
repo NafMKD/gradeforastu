@@ -19,15 +19,11 @@ error_reporting(0);
 </head>
 <body>
 <header class="main-header">
-  <a href="#" class="logo">
-    <span class="logo-mini"><b>D</b> - NM</span>
-    <span class="logo-lg"><b>Developer</b> - <em ></em></span>
-  </a>
   <nav class="navbar navbar-static-top">
     <div class="navbar-custom-menu">
       <ul class="nav navbar-nav navbar-right" style="margin-right: 10px;">
 	 <li class="dropdown notifications-menu">
-		Developer :- <a href="t.me/nafmkd"> @NafMKD </a>
+		 <a href="t.me/nafmkd"> @NafMKD </a>
 	 </li>
       </ul>
     </div>
