@@ -119,7 +119,7 @@ echo '
 			</div>
 
 			<div class="col-md-6">
-				Chemistry
+				T.D
 			</div>
 			<div class="col-md-2"></div>
 			<div class="col-md-4">
@@ -143,7 +143,7 @@ echo '
 			</div>
 
 			<div class="col-md-6">
-				Civics
+				Logic
 			</div>
 			<div class="col-md-2"></div>
 			<div class="col-md-4">
