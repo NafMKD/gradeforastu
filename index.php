@@ -128,7 +128,6 @@ session_start();
        		 $.post("calc.php",
          		 {
 
-              type:'generate',
               maths:  document.getElementById('maths').value,
               chem: document.getElementById('chem').value,
               phy: document.getElementById('phy').value,
