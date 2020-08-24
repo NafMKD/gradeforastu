@@ -21,11 +21,14 @@ error_reporting(0);
 <header class="main-header">
   <a href="#" class="logo">
     <span class="logo-mini"><b>D</b> - NM</span>
-    <span class="logo-lg"><b>Developer</b> - <em >@NafMKD</em></span>
+    <span class="logo-lg"><b>Developer</b> - <em ></em></span>
   </a>
   <nav class="navbar navbar-static-top">
     <div class="navbar-custom-menu">
       <ul class="nav navbar-nav navbar-right" style="margin-right: 10px;">
+	 <li class="dropdown notifications-menu">
+		Developer :- <a href="t.me/nafmkd"> @NafMKD </a>
+	 </li>
       </ul>
     </div>
   </nav>
@@ -109,11 +112,10 @@ error_reporting(0);
             	<div class="col-md-4"></div>
             </div>     
             <span class="input-group-btn">
-              <button class="btn btn-ingo pull-right" id="calculate" type="button" style="margin-top: 10px;">Calculate</button>
+              <button class="btn btn-info pull-right" id="calculate" type="button" style="margin-top: 10px;">Calculate</button>
             </span>
           </div>
         </div>
-/home/vol3_4/epizy.com/epiz_26531954/htdocs
       </div>
     </div>
   </div>
