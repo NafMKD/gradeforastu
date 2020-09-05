@@ -41,38 +41,7 @@ error_reporting(0);
               </div>
 
               <div class="box-body">
-                <!--<span>Insert Your Grade Here</span>
-                <div class="raw" style="margin-top: 20px;">
-                  <div class="col-md-4">
-                    <input type="text" class="form-control" id="nsub1" placeholder="Enter Subject One Name" style="margin-top: 5px;">
-                    <input type="text" class="form-control" id="nsub2" placeholder="Enter Subject Two Name" style="margin-top: 5px;">
-                    <input type="text" class="form-control" id="nsub3" placeholder="Enter Subject Three Name" style="margin-top: 5px;">
-                    <input type="text" class="form-control" id="nsub4" placeholder="Enter Subject Four Name" style="margin-top: 5px;">
-                    <input type="text" class="form-control" id="nsub5" placeholder="Enter Subject Five Name" style="margin-top: 5px;">
-                    <input type="text" class="form-control" id="nsub6" placeholder="Enter Subject Six Name" style="margin-top: 5px;">
-                  </div>
-
-                  <div class="col-md-4">
-                    <input type="text" class="form-control" id="csub1" placeholder="Enter Credit hour" style="margin-top: 5px;">
-                    <input type="text" class="form-control" id="csub2" placeholder="Enter Credit hour" style="margin-top: 5px;">
-                    <input type="text" class="form-control" id="csub3" placeholder="Enter Credit hour" style="margin-top: 5px;">
-                    <input type="text" class="form-control" id="csub4" placeholder="Enter Credit hour" style="margin-top: 5px;">
-                    <input type="text" class="form-control" id="csub5" placeholder="Enter Credit hour" style="margin-top: 5px;">
-                    <input type="text" class="form-control" id="csub6" placeholder="Enter Credit hour" style="margin-top: 5px;">
-                    <span class="input-group-btn">
-                      <button class="btn btn-info pull-right" id="calculate1" type="button" style="margin-top: 10px;">Calculate</button>
-                    </span>
-                  </div>
-
-                  <div class="col-md-4">
-                    <input type="text" class="form-control" id="msub1" placeholder="Enter Point" style="margin-top: 5px;">
-                    <input type="text" class="form-control" id="msub2" placeholder="Enter Point" style="margin-top: 5px;">
-                    <input type="text" class="form-control" id="msub3" placeholder="Enter Point" style="margin-top: 5px;">
-                    <input type="text" class="form-control" id="msub4" placeholder="Enter Point" style="margin-top: 5px;">
-                    <input type="text" class="form-control" id="msub5" placeholder="Enter Point" style="margin-top: 5px;">
-                    <input type="text" class="form-control" id="msub6" placeholder="Enter Point" style="margin-top: 5px;">
-                  </div>
-                </div>-->
+                
               </div>
             </div>
 
