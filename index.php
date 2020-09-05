@@ -37,7 +37,7 @@ error_reporting(0);
         <form method="POST" action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" name="myform">
             <div class="box box-primary" id="sowbox">
               <div class="box-header with-border">
-                <!--<h3 class="box-title">Full GPA Calculator</h3>-->
+                <h3 class="box-title">Your GPA will be shown here</h3>
               </div>
 
               <div class="box-body">
