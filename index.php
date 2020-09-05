@@ -72,12 +72,12 @@ error_reporting(0);
                     <input type="text" class="form-control" id="msub5" placeholder="Enter Point" style="margin-top: 5px;">
                     <input type="text" class="form-control" id="msub6" placeholder="Enter Point" style="margin-top: 5px;">
                   </div>
-                </div>
+                </div>-->
               </div>
             </div>
 
             <div id="sowbox1">
-            </div>-->
+            </div>
         </form>
       </div>
 
@@ -138,39 +138,6 @@ error_reporting(0);
           function(data){
                $('#sowbox').html(data);
 		document.getElementById("calculate").innerHTML = "Calculate";
-          });
-      });
-    })
-  </script>
-  <script>
-      $(document).ready(function(){
-          $("#calculate1").click(function(){
-		document.getElementById("calculate1").innerHTML = "Calculating ..";
-           $.post("calc1.php",
-             {
-              nsub1: document.getElementById('nsub1').value,
-              nsub2: document.getElementById('nsub2').value,
-              nsub3: document.getElementById('nsub3').value,
-              nsub4: document.getElementById('nsub4').value,
-              nsub5: document.getElementById('nsub5').value,
-              nsub6: document.getElementById('nsub6').value,
-              csub1: document.getElementById('csub1').value,
-              csub2: document.getElementById('csub2').value,
-              csub3: document.getElementById('csub3').value,
-              csub4: document.getElementById('csub4').value,
-              csub5: document.getElementById('csub5').value,
-              csub6: document.getElementById('csub6').value,
-              msub1: document.getElementById('msub1').value,
-              msub2: document.getElementById('msub2').value,
-              msub3: document.getElementById('msub3').value,
-              msub4: document.getElementById('msub4').value,
-              msub5: document.getElementById('msub5').value,
-              msub6: document.getElementById('msub6').value
-              
-          },
-          function(data){
-               $('#sowbox1').html(data);
-		document.getElementById("calculate1").innerHTML = "Calculate";
           });
       });
     })
