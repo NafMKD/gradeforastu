@@ -105,8 +105,9 @@ error_reporting(0);
               
           },
           function(data){
+	       document.getElementById("sowbox").removeClass("box box-primary");
                $('#sowbox').html(data);
-		document.getElementById("calculate").innerHTML = "Calculate";
+	       document.getElementById("calculate").innerHTML = "Calculate";
           });
       });
     })
