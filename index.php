@@ -37,11 +37,11 @@ error_reporting(0);
         <form method="POST" action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" name="myform">
             <div class="box box-primary" id="sowbox">
               <div class="box-header with-border">
-                <h3 class="box-title">Full GPA Calculator</h3>
+                <!--<h3 class="box-title">Full GPA Calculator</h3>-->
               </div>
 
               <div class="box-body">
-                <span>Insert Your Grade Here</span>
+                <!--<span>Insert Your Grade Here</span>
                 <div class="raw" style="margin-top: 20px;">
                   <div class="col-md-4">
                     <input type="text" class="form-control" id="nsub1" placeholder="Enter Subject One Name" style="margin-top: 5px;">
@@ -77,7 +77,7 @@ error_reporting(0);
             </div>
 
             <div id="sowbox1">
-            </div>
+            </div>-->
         </form>
       </div>
 
